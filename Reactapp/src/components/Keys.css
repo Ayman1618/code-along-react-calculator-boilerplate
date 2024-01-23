@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(41, 55, 67);
+}
+
+.keypad {
+    display: grid;
+    /* grid-template-columns: repeat(4, 1fr); */
+    gap: 1px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 20px auto;
+    background-color: #12223452;
+    
+  }
+  
+  .keypad div{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  button {
+    width: 100%;
+    height: 50px;
+    font-size: 1.5em;
+    cursor: pointer;
+    background-color: #555;
+    color: white;
+  }
+  
+  button:active {
+    background-color: #343a45;
+  }
+  
+  button.operator {
+    background-color: #ff9900;
+    color: #333;
+  }
+  
+  #equal{
+    position: absolute;
+    width: 10.2vw;
+    margin-left: 10.63vw;
+
+  }
+  
